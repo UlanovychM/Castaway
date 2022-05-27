@@ -1,20 +1,16 @@
 @import '../base/variables';
 
 .header {
-	position: relative;
-	max-height: 119px;
+	display: flex;
+	justify-content: space-between;
+	height: 119px;
 	&__logo {
-		position: absolute;
-		left: 0.36%;
-		right: 0.17%;
-		top: 0.24%;
-		bottom: 0.91%;
 		margin: 43px 50px;
 	}
 	&__links {
-		position: absolute;
-		left: 757px;
+		display: flex;
 		margin-top: 46px;
+		padding: 0 70px;
 	}
 	&__link {
 		font-style: normal;
