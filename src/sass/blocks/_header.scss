@@ -1,0 +1,27 @@
+@import '../base/variables';
+
+.header {
+	position: relative;
+	max-height: 119px;
+	&__logo {
+		position: absolute;
+		left: 0.36%;
+		right: 0.17%;
+		top: 0.24%;
+		bottom: 0.91%;
+		margin: 43px 50px;
+	}
+	&__links {
+		position: absolute;
+		left: 757px;
+		margin-top: 46px;
+	}
+	&__link {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 17px;
+		line-height: 27px;
+		color: $second-color;
+		margin-left: 40px;
+	}
+}
