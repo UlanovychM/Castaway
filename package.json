@@ -1,0 +1,38 @@
+{
+	"name": "Castaway",
+	"version": "1.0.0",
+	"description": "",
+	"main": "gulpfile.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.26.5",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^6.1.0",
+		"gulp-clean-css": "^4.2.0",
+		"gulp-cli": "^2.2.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^5.0.0",
+		"sass": "^1.35.1",
+		"webpack-cli": "^4.9.2",
+		"@babel/cli": "^7.17.6",
+		"@babel/core": "^7.17.9",
+		"@babel/preset-env": "^7.16.11",
+		"babel-loader": "^8.2.5"
+	},
+	"dependencies": {
+		"@babel/polyfill": "^7.12.1",
+		"core-js": "^3.22.1",
+		"es6-promise": "^4.2.8",
+		"nodelist-foreach-polyfill": "^1.2.0"
+	},
+	"browserslist": [
+		"last 1 version",
+		"> 1%",
+		"maintained node versions",
+		"not dead"
+	]
+}
