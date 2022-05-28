@@ -5,12 +5,13 @@
 	justify-content: space-between;
 	height: 119px;
 	&__logo {
-		margin: 43px 50px;
+		padding: 43px 0 0 50px;
 	}
 	&__links {
 		display: flex;
 		margin-top: 46px;
-		padding: 0 70px;
+		margin-left: 757px;
+		padding: 0 70px 0 0;
 	}
 	&__link {
 		font-style: normal;

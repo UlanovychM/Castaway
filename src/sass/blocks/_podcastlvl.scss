@@ -1,1 +1,47 @@
+@import '../base/variables';
+.podcastlvl .container {
+	padding: 0 70px 0 50px;
+	display: flex;
+	margin: 0;
+}
 
+.podcastlvl {
+	display: flex;
+	align-items: flex-start;
+	&__img {
+		margin: 0;
+	}
+	&__items {
+		&__title {
+			position: relative;
+			align-self: center;
+			max-width: 526px;
+			margin-top: 55%;
+			padding-left: 60px;
+			color: #ffffff;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 70px;
+			line-height: 88px;
+			span {
+				font-weight: 700;
+			}
+		}
+		&__img {
+			position: absolute;
+			padding-left: 60px;
+		}
+		&__listen {
+			padding: 90px 0px 0 82px;
+			p {
+				color: $second-color;
+			}
+			&__links {
+				margin-top: 16px;
+				a:nth-last-child(-n + 4) {
+					margin-left: 18px;
+				}
+			}
+		}
+	}
+}
