@@ -15,15 +15,15 @@ a {
 
 .container {
 	padding: 0 70px;
-	margin: 0 auto;
 }
 
 @import 'base/variables';
 @import 'blocks/buttons';
-@import 'blocks/castpress';
+@import 'blocks/about';
 @import 'blocks/episodes';
 @import 'blocks/header';
 @import 'blocks/podcastlvl';
 @import 'blocks/footer';
 @import 'blocks/reviews';
 @import 'blocks/subscribe';
+@import 'base/text';

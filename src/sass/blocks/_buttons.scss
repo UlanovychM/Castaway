@@ -13,3 +13,27 @@
 	width: 208px;
 	margin: 18px 0 0 13px;
 }
+
+.about__btn {
+	height: 112px;
+	width: 112px;
+	background-color: $main-color;
+	border-radius: 50%;
+	border: none;
+	// &::before {
+	// 	content: '';
+	// 	display: block;
+	// 	width: 71px;
+	// 	height: 4px;
+	// 	background-color: $second-color;
+	// }
+	// &::after {
+	// 	content: '';
+	// 	display: block;
+	// 	transform: rotate(-45deg);
+	// 	-webkit-transform: rotate(-45deg);
+	// 	width: 51px;
+	// 	height: 4px;
+	// 	background-color: $second-color;
+	// }
+}

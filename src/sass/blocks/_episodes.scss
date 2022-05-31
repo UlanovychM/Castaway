@@ -34,47 +34,16 @@
 		height: 465px;
 		margin: 40px;
 	}
-	&__help {
-		margin: 48px 0 0 13px;
-		color: $second-color;
-		background-color: #191919;
-		height: 27px;
-		border-radius: 6px;
-		width: 73px;
-		text-align: center;
-		padding: 2px;
-		font-size: 17px;
-	}
-	&__help_2 {
-		width: 136px;
-	}
-	.title {
-		margin: 18px 0 0 13px;
-		height: 141px;
-		width: 700px;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 64px;
-		line-height: 79px;
-		color: $second-color;
-	}
+
 	.subtitle {
 		margin: 48px 0 0 13px;
-		color: $main-color;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 17px;
-		line-height: 27px;
 	}
 
-	&__text {
+	.title {
+		margin: 18px 0 0 13px;
+	}
+	.text {
 		margin: 28px 0 0 13px;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 22px;
-		line-height: 33px;
-		color: rgba(255, 255, 255, 0.7);
 		width: 757px;
-		max-height: 99px;
 	}
 }
