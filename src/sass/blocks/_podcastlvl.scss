@@ -34,12 +34,16 @@
 			p {
 				color: $second-color;
 			}
-			&__links {
-				margin-top: 16px;
-				a:nth-last-child(-n + 4) {
-					margin-left: 18px;
-				}
-			}
+		}
+	}
+	&__platforms {
+		margin-top: 16px;
+		a {
+			margin-left: 0;
+			
+		}
+		a:nth-last-child(-n + 4) {
+			margin-left: 18px;
 		}
 	}
 }
